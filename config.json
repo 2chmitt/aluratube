@@ -3,15 +3,15 @@
     "job": "Dev Front-End",
     "github": "2chmitt",
     "bg": "https://img.freepik.com/free-vector/abstract-blue-hexagonal-shapes-background_1017-19272.jpg?w=2000",
-    "favoritos": {
+    "favorito": {
       "youtubers":[
         {
-          "thumb": "",
-          "nome": ""
+          "perfil": "https://yt3.ggpht.com/ytc/AMLnZu-QIREHqSQ2yGwkOFvDb9rl_strZ6vpCEpo9xF5=s88-c-k-c0x00ffffff-no-rj",
+          "nome": "joserobjr"
         },
         {
-          "thumb": "",
-          "nome": ""
+          "perfil": "https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s88-c-k-c0x00ffffff-no-rj",
+          "nome": "AluraCursosOnline"
         }
       ]
     },

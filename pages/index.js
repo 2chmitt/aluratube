@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import { CSSReset } from "../src/componentes/CSSReset";
 import Menu from "../src/componentes/Menu";
 import { StyledTimeline } from "../src/componentes/Timeline";
+import StyledFavorits from "../src/componentes/favorits";
+
 
 
 function HomePage() {
@@ -25,8 +27,9 @@ function HomePage() {
                 <Menu />
                 <Header />
                 <Timeline playlists={config.playlists}>
-
                 </Timeline>
+                <Favoritos favoritos={config.favorito}>
+                </Favoritos>
 
 
             </div>
@@ -124,5 +127,25 @@ function Timeline(propriedades) {
                 )
             })}
         </StyledTimeline>
+    )
+}
+
+function Favoritos(){
+    return(
+        <StyledFavorits>
+            <h3 className="favoritos__title">AluraTubes Favoritos</h3>
+            <div className="favoritos__container">
+                <a className="favoritos__link" href="#">
+                    <img src="https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s88-c-k-c0x00ffffff-no-rj" alt="favorito" className="favoritos__img" />
+                    <p className="favoritos__name">AluraCursosOnline</p>
+                </a>
+
+                <a className="favoritos__link" href="#">
+                    <img src='https://yt3.ggpht.com/ytc/AMLnZu-QIREHqSQ2yGwkOFvDb9rl_strZ6vpCEpo9xF5=s88-c-k-c0x00ffffff-no-rj' alt="favorito" className="favoritos__img" />
+                    <p className="favoritos__name">Joserobjr</p>
+                </a>
+            </div>
+        </StyledFavorits>
+        
     )
 }
