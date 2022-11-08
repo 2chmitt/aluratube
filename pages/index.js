@@ -19,7 +19,7 @@ function HomePage() {
                 display: "flex",
                 flexDirection: "column",
                 flex: 1,
-                // backgroundColor: "red",
+                backgroundColor: "#00A6CB",
             }}>
 
                 <Menu />
@@ -61,13 +61,21 @@ const StyleHeader = styled.div`
         width: 100%;
         padding:16px 32px;
         gap: 16px;
+        color: #bff9ff;
     }
 
   `;
+
+  const StyleBanner = styled.div`
+    background-image: url(${config.bg});
+    height: 230px;
+  `
 function Header() {
     return (
+
         <StyleHeader>
 
+            <StyleBanner />
             <section className="user-info">
                 <img src={`https://github.com/${config.github}.png`} />
 

@@ -9,6 +9,7 @@ export const StyledTimeline = styled.div`
     font-size: 16px;
     margin-bottom: 16px;
     text-transform: capitalize;
+    color: ${({ theme }) => theme.textColorBase || "#bff9ff"};
   }
   img {
     aspect-ratio: 16/9;
@@ -39,7 +40,7 @@ export const StyledTimeline = styled.div`
           padding-top: 8px;
           display: block;
           padding-right: 24px;
-          color: ${({ theme }) => theme.textColorBase || "#222222"};
+          color: ${({ theme }) => theme.textColorBase || "#bff9ff"};
         }
       }
     }
