@@ -5,6 +5,30 @@ export const StyledTimeline = styled.div`
   width: 100%;
   padding: 16px;
   overflow: hidden;
+  
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #b3b2b3 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #bff9ff;
+    border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #00A6CB;
+    border-radius: 10px;
+    border: 1px solid #bff9ff;
+  }
+
   h2 {
     font-size: 16px;
     margin-bottom: 16px;
