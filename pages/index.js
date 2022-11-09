@@ -14,7 +14,7 @@ function HomePage() {
     const estilosDaHomePage = { //backgroundColor: 'red' 
     };
 
-    const [ValorDoFiltro, SetValorDoFiltro] = React.useState('5');
+    const [ValorDoFiltro, SetValorDoFiltro] = React.useState('');
 
     /*console.log(config.playlists);*/
 
